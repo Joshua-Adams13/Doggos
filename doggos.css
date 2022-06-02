@@ -1,24 +1,26 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("pngegg.png");
-    background-size: 250px;
-    
+    background-size: 350px;
+    background-origin: padding-box;
+    text-align: center;
 }
 
 h1 {
-    background-color: rgb(251, 251, 251);
-    border: 2px solid rgb(0, 225, 255);
-    text-align: center;
+    background-color: rgb(0, 225, 255);
+    color: rgb(249, 249, 249);
     font-size: 50px;
-    color: rgb(0, 225, 255);
+    padding: 1rem;
+    margin: 0;
 }
 
-.return-doggo {
-    background-color: rgb(251, 251, 251);
+.button {
+    background-color: rgb(0, 225, 255);
     border: 2px solid rgb(0, 225, 255);
-    color: rgb(0, 225, 255);
+    color: rgb(251, 252, 252); 
     font-weight: bold;
-    position: absolute;
+    margin: 1em auto; 
+    display: inline-block;
     right: 40%;
     padding: 10px;
     font-size: 20px;
@@ -29,15 +31,15 @@ h1 {
     width: 90%;
     background-color: rgb(0, 225, 255);
     width: 80%;
-    position: absolute;
-    top: 200px;
-    left: 10%;
-    border-radius: 10px;
+    margin: 0 auto; 
+    display: block;
+    border-radius: 35px;
 }
 
 .img {
-    width: 60%;
-    position: relative;
+    width: 40%;
+    margin: 0 auto; 
+    display: block;
     left: 12%;
-    padding: 40px;
+    padding: 20px;
 }
